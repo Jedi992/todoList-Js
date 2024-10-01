@@ -1,0 +1,57 @@
+.nav__list-ul {
+  list-style-type: none;
+}
+
+body {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list label {
+  display: flex;
+  align-items: center;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+.nav__list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task {
+  cursor: pointer;
+}
+.body {
+  background-color: #3f3535;
+}
+.task-done {
+  text-decoration: line-through;
+}
+
+.close-btn {
+  padding: 1em 2em; /* Расстояние от текста до края */
+  background-color: #fff; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  border: 0; /* Убираем рамку */
+  cursor: pointer;
+}
+
+.close-btn:active {
+  background-color: #3f3535;
+  transition: 0.2s;
+  border-radius: 99px;
+}
