@@ -33,7 +33,11 @@ body {
 }
 
 .task {
-  cursor: pointer;
+  background-color: rgb(55, 156, 97);
+}
+.task-content {
+  display: flex;
+  justify-content: space-between;
 }
 .body {
   background-color: #3f3535;
@@ -43,15 +47,5 @@ body {
 }
 
 .close-btn {
-  padding: 1em 2em; /* Расстояние от текста до края */
-  background-color: #fff; /* Цвет фона */
-  color: #fff; /* Цвет текста */
-  border: 0; /* Убираем рамку */
   cursor: pointer;
-}
-
-.close-btn:active {
-  background-color: #3f3535;
-  transition: 0.2s;
-  border-radius: 99px;
 }
